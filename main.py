@@ -10,9 +10,9 @@ import streamlit as st
 load_dotenv()
 
 client = openai.OpenAI(api_key=os.environ.get('OPENAI_API_KEY'),
-    organization="org-khIrQu0W6wbUnghDbHaxKxMP",
+    organization="org-id",
     base_url="https://api.openai.com/v1/",
-    project="proj_4LCvgSJCJBLLMnEqpdhqGUWk",
+    project="project_id",
     timeout=5)
 
 model = "gpt-4o-mini"
